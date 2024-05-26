@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Baskervville";
+  font-size: 24px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
+.sub-title {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  font-size: large;
+  padding: 5px;
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.our-games {
+  text-align: center;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  text-align: center;
+}
+
+.card {
+  border: solid 1px grey;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.card > h2,
+.card > p {
+  padding: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #4caf50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  margin-bottom: 10px;
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Mouse pointer on hover */
+  transition-duration: 0.4s; /* Smooth transition */
+}
+
+.btn img {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.btn:hover {
+  background-color: white; /* White background */
+  color: black; /* Black text */
+  border: 2px solid #4caf50; /* Green border */
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social_card {
+  margin-left: 20px;
+}
+
+#copyright {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Team Section */
+
+.profile-picture {
+  height: 64px;
+  width: 64px;
+}
+
+.profile > h3 {
+  margin-top: 10px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Jobs */
+
+.job {
+  text-align: center;
+}
+
+.job-btn {
+  margin-top: 20px;
+}
+
+.mail {
+  font-size: larger;
+  color: #4caf50;
+}
